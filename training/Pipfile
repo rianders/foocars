@@ -3,10 +3,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[[source]]
-url = "https://www.piwheels.org/simple"
-verify_ssl = true
-name = "piwheels"
  
 
 [dev-packages]
@@ -14,13 +10,10 @@ name = "piwheels"
 [packages]
 argparse = "*"
 tqdm = "*"
-pyserial = "*"
-Pillow = "*"
 Keras = "*"
 "h5py" = "*"
+scikit-image= "*"
 tensorflow = "*"
-"rpi.gpio" = "*"
-picamera = "*"
 
 [requires]
 python_version = "3.*"
